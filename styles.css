@@ -61,12 +61,13 @@ body {
     /* display: grid;
     justify-items: center; */
     margin: 0;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 main {
     width: 100%;
-    margin-top: 50px;
+    /* min-height: 100vh; */
+    margin-top: 20px;
     display: grid;
     /* justify-content: center; */
     text-align: center;
@@ -80,7 +81,7 @@ main {
 }
 
 .logo img {
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .content {
@@ -91,9 +92,9 @@ main {
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: var(--secondary-color);
-  margin: 20px 0 ;
+  margin: 10px 0;
   /* text-align: center; */
 }
 
@@ -104,7 +105,7 @@ main {
 }
 
 .telegram-link a {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 600;
   color: var(--secondary-color);
   padding: 0 10px;
@@ -120,11 +121,12 @@ main {
 }
 
 .btns button {
-  text-align: center;
+  /* text-align: center; */
   color: #fff;
   background-color: var(--secondary-color);
   border: none;
   border-radius: 5%;
-  padding: 9px 40px;
-  margin: 0 10px;
+  padding: .26rem 1.78rem;
+  margin: 5px 30px;
+  cursor: pointer;
 }
